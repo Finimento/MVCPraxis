@@ -13,6 +13,7 @@
 		B56F12C72CD121CB00E10D5E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B56F12C62CD121CB00E10D5E /* Base */; };
 		B56F12C92CD121CE00E10D5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56F12C82CD121CE00E10D5E /* Assets.xcassets */; };
 		B56F12CC2CD121CE00E10D5E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B56F12CB2CD121CE00E10D5E /* Base */; };
+		B56F12D62CD123D000E10D5E /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F12D52CD123D000E10D5E /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B56F12C82CD121CE00E10D5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B56F12CB2CD121CE00E10D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B56F12CD2CD121CE00E10D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B56F12D52CD123D000E10D5E /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +60,38 @@
 			children = (
 				B56F12BF2CD121CB00E10D5E /* AppDelegate.swift */,
 				B56F12C12CD121CB00E10D5E /* SceneDelegate.swift */,
-				B56F12C32CD121CB00E10D5E /* ViewController.swift */,
-				B56F12C52CD121CB00E10D5E /* Main.storyboard */,
+				B56F12D72CD123D700E10D5E /* Model */,
+				B56F12D32CD1238E00E10D5E /* Controller */,
+				B56F12D42CD123A000E10D5E /* View */,
 				B56F12C82CD121CE00E10D5E /* Assets.xcassets */,
-				B56F12CA2CD121CE00E10D5E /* LaunchScreen.storyboard */,
 				B56F12CD2CD121CE00E10D5E /* Info.plist */,
 			);
 			path = MVCPraxis;
+			sourceTree = "<group>";
+		};
+		B56F12D32CD1238E00E10D5E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B56F12C32CD121CB00E10D5E /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B56F12D42CD123A000E10D5E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B56F12CA2CD121CE00E10D5E /* LaunchScreen.storyboard */,
+				B56F12C52CD121CB00E10D5E /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B56F12D72CD123D700E10D5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B56F12D52CD123D000E10D5E /* Person.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +167,7 @@
 			files = (
 				B56F12C42CD121CB00E10D5E /* ViewController.swift in Sources */,
 				B56F12C02CD121CB00E10D5E /* AppDelegate.swift in Sources */,
+				B56F12D62CD123D000E10D5E /* Person.swift in Sources */,
 				B56F12C22CD121CB00E10D5E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
